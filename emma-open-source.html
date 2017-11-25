@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>EMMA - Open Source Übersetzungstool</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>EMMA - Übersetzungs-Tool</h1>
+					Software für Menschen die Menschen helfen
+				</section>
+				<section>
+					<h2>Das Problem</h2>
+					<p>Bei der Duisburger Tafel müssen viele ausländische Teilnehmer registriert und bedient werden.</p>
+					<p class="fragment">Die ehrenamtlichen Mitarbeiter der Tafel können kaum Englisch</p>
+					<p><span class="fragment">Die Teilnehmer können ebenfalls kein Englisch</span> <span class="fragment">und auch nur selten lesen</span></p>
+				</section>
+				<section data-background="emma/shower.gif" data-background-color="#000000">
+					<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+						<h2>Die Lösung</h2>
+						<pre><code class="hljs" style="word-wrap: break-word;">Sollte einfach und intuitiv sein </code></pre>
+					</div>
+				</section>
+				<section>
+					<h2>Kategorien und Phrasen</h2>
+					<p class="fragment">Anmeldung</p>
+					<p><span class="fragment">Wieviele Kinder unter 18 Jahren leben in Ihrem Haushalt?</span> <span class="fragment">Essen Sie Schweinefleisch?</span></p>
+					<p class="fragment">Essensausgabe</p>
+					<p><span class="fragment">Haben sie einen Gefrierschrank?</span> <span class="fragment">Das muß in den nächsten 2 Tagen gegessen werden?</span></p>
+				</section>
+				<section data-background="emma/sound.gif" data-background-color="#000000">
+					<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+						<h2>Vorlesen und Entscheidungsfragen</h2>
+						<pre><code class="hljs" style="word-wrap: break-word;">Das versteht dann wirklich jeder</code></pre>
+					</div>
+				</section>
+				<section>
+					<h2>Wer wir sind?</h2>
+					<p class="fragment">Never Code Alone ist eine Community, die sich u.a. gegenseitig weiterbildet</p>
+					<p class="fragment">Wir vermitteln zwischen sozialen Einrichtungen und Programmierern</p>
+					<p class="fragment">Wir wollen aktuelle Technologien kurzfristig einsetzen</p>
+				</section>
+				<section>
+					<h2>Was haben wir?</h2>
+				</section>
+				<section>
+					<section data-background="emma/need.gif" data-background-color="#000000">
+						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+							<h2>Was brauchen wir?</h2>
+						</div>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
