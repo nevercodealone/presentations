@@ -1,0 +1,16 @@
+.reveal .controls, .reveal .progress {
+    color: #5fbb28;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    border: 0;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
