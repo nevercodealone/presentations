@@ -52,3 +52,13 @@ div.font-sixty-percent {
     background: none;
     margin-top: 0px;
 }
+
+
+/*Bildkorrektur*/
+
+
+.portrait  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
