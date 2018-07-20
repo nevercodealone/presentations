@@ -38,12 +38,20 @@
     text-align: left;
 }
 
+div.font-fourtyfive-percent {
+    font-size: 45%;
+}
+
 div.font-fifty-percent {
     font-size: 50%;
 }
 
 div.font-sixty-percent {
     font-size: 60%;
+}
+
+div.font-seventy-percent {
+    font-size: 70%;
 }
 
 /* Overwrites */
